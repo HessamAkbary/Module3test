@@ -1,0 +1,127 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+	
+}
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border:0;
+}
+
+#logo-img {
+	background: url('../image/logo.png') no-repeat;
+	width: 300px;
+	height: 150px;
+	margin: 25px -169px -1px -50px;
+	float: left;
+	
+}
+.navbar-brand {
+	padding-top: 14px;
+
+}
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand p {
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+.navbar-brand p span {
+	vertical-align: middle;
+}
+#navbarSupportedContent {
+display: inline-block;
+margin-right: auto;
+float: right;
+text-align: right;
+}
+div.collapse.navbar-collapse {
+	margin: 0;
+}
+.nav-link {
+	text-align: center;
+	background-color: #f6d319;
+	margin-top: 10px;}
+
+.navbar-toggler-icon {
+		position: relative;
+	}
+
+
+@media ( max-width:260px ){
+
+.navbar-toggler-icon {
+	
+	font-size: 6vw;
+	}
+.navbar-toggler {
+font-size: 5vw;
+
+}
+.navbar-brand {
+	padding-top: 9px;
+	font-size: 5vw;
+
+}
+	}
+
+/* Menu Items */
+
+	.menu-item {
+
+border:solid black 1px;
+border-radius: 2px;
+text-align: center;
+margin:30px 50px 0 ;
+background-color: #4595;
+height: auto;
+
+
+
+
+	}
+.items-information {
+	position: : center;
+
+}
+.details {
+background-color: #459;
+float: right;
+border-left: 1px solid black;
+border-bottom: 1px solid black;
+
+
+
+
+}
+
+div > span {
+	text-align: center;
+float: right;
+width: 80px;
+height: 30px;
+}
+.row {
+	width: 100%;
+}
+.dummy {
+	margin-left: 2px;
+	margin-right: 2px;
+}
