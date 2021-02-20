@@ -1,37 +1,84 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>This is my assignment</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header>
+	<nav  class="navbar navbar-expand-lg navbar-light" id="header-nav" >
+		<div class="container">
+			<div class="navbar-header">
+				<a href="index.html" class="float-left d-lg-block d-md-block d-none">
+					 <!-- <div id="logo-img"></div> -->
+				</a>
 
-You can use the [editor on GitHub](https://github.com/HessamAkbary/Module3test/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+		<div class="navbar-brand">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+			<a href="index.html"><h1>Food, LLC</h1></a>
+			<!-- <p>	
+				<img src="image/certify.png" alt="Hessam Certification">
+				<span>First program reviser</span>
+			</p> --> 
+		</div> 
+		
+			</div>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<!-- Collapsable menu -->
+<button class="navbar-toggler  d-lg-none  d-md-none d-sm-none d-xs-block " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	<span class="navbar-toggler-icon "></span>
 
-```markdown
-Syntax highlighted code block
+</button>
 
-# Header 1
-## Header 2
-### Header 3
+<div class="collapse navbar-collapse " id="collapsibleNavbar" name >
+	<ul class="navbar-nav d-lg-none  " >
+		<li class="nav-item"><a class="nav-link"  href="#">Chicken</a></li>
+			 <li class="nav-item"><a class="nav-link"  href="#">Beef</a></li>
+			<li class="nav-item"><a class="nav-link"  href="#">Sushi</a></li>
+	</ul>
+	
 
-- Bulleted
-- List
+</div>
+		</div>
+	</nav>
+</header>
 
-1. Numbered
-2. List
+<section class="row" > 
+<div class=" col-12 ">
 
-**Bold** and _Italic_ and `Code` text
+<div class="menu-item" > <span class="details">Chicken</span> <br>
 
-[Link](url) and ![Image](src)
-```
+<p class="dummy">This is the chicken item in the Menu that you can buy easily. There are very wonderful and I suggest everyone to try them at least once. Also, we can cook them for you in a variety of ways to make the best experience for you.</p>
+</div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+<div class="menu-item"> <span  class="details">Beef</span> 
+<br>
+<p class="dummy">This is the chicken item in the Menu that you can buy easily. There are very wonderful and I suggest everyone to try them at least once. Also, we can cook them for you in a variety of ways to make the best experience for you.</p>
+</div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/HessamAkbary/Module3test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+<div class="menu-item"><span  class="details">Sushi</span>
+<br>
+ <p class="dummy">This is the chicken item in the Menu that you can buy easily. There are very wonderful and I suggest everyone to try them at least once. Also, we can cook them for you in a variety of ways to make the best experience for you.
+ </p>
+</div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+</div>
+</section>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
